@@ -1,11 +1,9 @@
-import './App.css';
-import NavBar from '../src/components/Navbar.js';
-import ItemListContainer from '../src/components/ItemListContainer';
+import NavBar from './components/NavBar/index';
+
 function App() {
   return (
     <div className="App">
-      <NavBar/>
-      <ItemListContainer greetings={"Proximamente tienda Online de Sucupots!"}/>
+      <NavBar />
     </div>
   );
 }

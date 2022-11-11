@@ -55,7 +55,7 @@ export const ItemListContainer = ({ texto }) => {
         const getData = new Promise(resolve => {
             setTimeout(() => {
                 resolve(macetas);
-            }, 3000);
+            }, 1000);
         })
         getData.then(res => setData(res))
     }, [])

@@ -1,8 +1,11 @@
 import React from 'react';
 
-function CartWidget() {
+
+export const CartWidget = () => {
     return (
-        <i className="bi bi-cart3"></i>
+        <>
+            <i className="bi bi-cart3"></i>
+        </>
     );
 }
 

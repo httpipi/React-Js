@@ -11,10 +11,10 @@ export const NavBar = () => {
                 </div>
                 <ul className="navList">
                     <li >
-                        <NavLink className='navLink' to='/macetas/cemento'>Macetas</NavLink>
+                        <NavLink className='navLink' to='/macetas/cemento'>Macetas de Cemento</NavLink>
                     </li>
                     <li >
-                        <NavLink className='navLink' to='/detalle/id'>Detalle</NavLink>
+                        <NavLink className='navLink' to='/macetas/yeso'>Macetas de Yeso</NavLink>
                     </li>
                     <li >
                         <NavLink className='navLink' to='/cart'>Carrito</NavLink>
